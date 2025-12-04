@@ -360,6 +360,6 @@ footer {
 
 iframe{
     height: 1432px;
-    width: 740px;
-    align-items: center;
+    width: 640px;
+   text-align: center;
 }
