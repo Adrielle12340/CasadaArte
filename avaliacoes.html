@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliações</title>
+    <link rel="stylesheet" href="CSS/avaliacoes.css">
+</head>
+<body>
+    <header>
+        <h1 class="avaliacoes">Avaliações</h1>
+    </header>
+    <h2>deixe sua Avaliação ⭐</h2>
+    <form id="avaliacaoForm">
+        <div class="star-rating">
+        <input type="radio" id="estrela5" name="estrela" value="5"><label for="estrela5">★</label>
+        <input type="radio" id="estrela4" name="estrela" value="4"><label for="estrela4">★</label>
+        <input type="radio" id="estrela3" name="estrela" value="3"><label for="estrela3">★</label>
+        <input type="radio" id="estrela2" name="estrela" value="2"><label for="estrela2">★</label>
+        <input type="radio" id="estrela1" name="estrela" value="1"><label for="estrela1">★</label>
+        </div>
+
+        <div>
+            <textarea placeholder="escreva seu comentário..." rows="4"></textarea>
+        </div>
+
+        <button type="submit">Enviar Avaliação</button>
+    </form>
+     
+    <p class="resultado" id="resultado"></p>
+
+    <script src="JS/avaliacoes.js"></script>
+</body>
+</html>
